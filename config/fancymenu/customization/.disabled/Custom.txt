@@ -1,0 +1,35 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 189
+  width = 98
+  actionid = 24179065-4508-4a01-b497-8b98dc5595d51664392059020
+  action = addbutton
+  y = 124
+  label = Mods
+  value = 
+  height = 20
+}
+
